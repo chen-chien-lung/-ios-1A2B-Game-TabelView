@@ -21,6 +21,10 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tR4-Ox-0dV">
                                 <rect key="frame" x="20" y="28" width="560" height="252"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="73P-8s-UCV"/>
+                                    <constraint firstAttribute="width" constant="560" id="mt4-ww-us3"/>
+                                </constraints>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="YxF-Lc-rdX" detailTextLabel="4We-7o-5Rl" style="IBUITableViewCellStyleValue1" id="glW-fB-Osc">
                                         <rect key="frame" x="0.0" y="28" width="560" height="44"/>
@@ -32,21 +36,18 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YxF-Lc-rdX">
                                                     <rect key="frame" x="15" y="12" width="31.5" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4We-7o-5Rl">
                                                     <rect key="frame" x="503.5" y="12" width="41.5" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
@@ -241,21 +242,21 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Qc0-VT-ZGl" firstAttribute="leading" secondItem="eSk-4f-ebK" secondAttribute="leadingMargin" id="2bT-XB-NWs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tR4-Ox-0dV" secondAttribute="trailing" id="7cN-DE-KjA"/>
                             <constraint firstItem="eOM-l1-AJN" firstAttribute="top" secondItem="60j-VN-BxP" secondAttribute="bottom" constant="8" id="8TR-T8-fL6"/>
                             <constraint firstItem="Qc0-VT-ZGl" firstAttribute="top" secondItem="BqQ-XO-wpf" secondAttribute="bottom" constant="8" id="9ny-QU-pzP"/>
                             <constraint firstItem="60j-VN-BxP" firstAttribute="top" secondItem="XmY-Ai-EGe" secondAttribute="bottom" constant="8" id="9ux-FC-yfU"/>
                             <constraint firstItem="60j-VN-BxP" firstAttribute="centerX" secondItem="eSk-4f-ebK" secondAttribute="centerX" id="FBX-VM-AD6"/>
-                            <constraint firstItem="tR4-Ox-0dV" firstAttribute="trailing" secondItem="BqQ-XO-wpf" secondAttribute="trailing" id="HMD-rj-MsN"/>
-                            <constraint firstItem="BqQ-XO-wpf" firstAttribute="top" secondItem="tR4-Ox-0dV" secondAttribute="bottom" constant="8" symbolic="YES" id="Iv2-5I-sPg"/>
                             <constraint firstItem="BqQ-XO-wpf" firstAttribute="trailing" secondItem="eSk-4f-ebK" secondAttribute="trailingMargin" id="JHW-5z-ea3"/>
+                            <constraint firstItem="tR4-Ox-0dV" firstAttribute="leading" secondItem="eSk-4f-ebK" secondAttribute="leadingMargin" id="Kjq-yY-gDa"/>
                             <constraint firstItem="XmY-Ai-EGe" firstAttribute="top" secondItem="Qc0-VT-ZGl" secondAttribute="bottom" constant="8" id="Ry8-m8-fzH"/>
+                            <constraint firstItem="BqQ-XO-wpf" firstAttribute="top" secondItem="tR4-Ox-0dV" secondAttribute="bottom" constant="8" id="TyR-Pz-VYH"/>
                             <constraint firstItem="vTq-17-YjW" firstAttribute="top" secondItem="BqQ-XO-wpf" secondAttribute="bottom" constant="262" id="WbS-lv-QgT"/>
                             <constraint firstItem="XmY-Ai-EGe" firstAttribute="trailing" secondItem="eSk-4f-ebK" secondAttribute="trailingMargin" id="bCE-Jz-Wuo"/>
                             <constraint firstItem="vTq-17-YjW" firstAttribute="top" secondItem="Qc0-VT-ZGl" secondAttribute="bottom" constant="204" id="bSd-jd-TUI"/>
                             <constraint firstItem="Qc0-VT-ZGl" firstAttribute="trailing" secondItem="eSk-4f-ebK" secondAttribute="trailingMargin" id="biw-Sa-TUG"/>
-                            <constraint firstItem="tR4-Ox-0dV" firstAttribute="top" secondItem="xRj-Ul-bx6" secondAttribute="bottom" constant="8" symbolic="YES" id="f3H-U7-OIe"/>
+                            <constraint firstItem="tR4-Ox-0dV" firstAttribute="top" secondItem="xRj-Ul-bx6" secondAttribute="bottom" constant="8" symbolic="YES" id="hMe-0I-Usl"/>
                             <constraint firstItem="BqQ-XO-wpf" firstAttribute="leading" secondItem="eSk-4f-ebK" secondAttribute="leadingMargin" id="kmx-Hp-GeG"/>
-                            <constraint firstItem="tR4-Ox-0dV" firstAttribute="leading" secondItem="BqQ-XO-wpf" secondAttribute="leading" id="ont-xl-Rrp"/>
                             <constraint firstItem="XmY-Ai-EGe" firstAttribute="leading" secondItem="eSk-4f-ebK" secondAttribute="leadingMargin" id="q0z-b0-mbg"/>
                             <constraint firstItem="vTq-17-YjW" firstAttribute="top" secondItem="XmY-Ai-EGe" secondAttribute="bottom" constant="146" id="rZ8-va-KbY"/>
                             <constraint firstItem="eOM-l1-AJN" firstAttribute="centerX" secondItem="eSk-4f-ebK" secondAttribute="centerX" id="v1d-ss-cnu"/>
