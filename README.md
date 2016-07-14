@@ -16,4 +16,5 @@ In conclusion,when you get the 4 A , you win the game^^
 Enjoy!!
 
 
- ![image](https://raw.githubusercontent.com/chen-chien-lung/1A2B-Game-TabelView/master/screenshots/photo.png)
+ 
+<img src="https://raw.githubusercontent.com/chen-chien-lung/1A2B-Game-TabelView/master/screenshots/photo.png" width="280" height="500">
